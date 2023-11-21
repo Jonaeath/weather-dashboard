@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import SearchBar from '../SearchBar/SearchBar';
-// import WeatherChartCard from '../../Pages/WeatherChartCard/WeatherChartCard';
 
 const Home = () => {
     const [weather,setWeather] = useState({})
@@ -8,7 +7,6 @@ const Home = () => {
     return (
         <div className='text-center'>
             <SearchBar weather = {weather} setWeather = {setWeather}/>
-            {/* <WeatherChartCard weather = {weather} /> */}
         </div>
     );
 };
